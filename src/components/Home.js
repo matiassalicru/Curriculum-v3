@@ -7,16 +7,20 @@ export const Home = () => {
       <h1 className="home__title">Welcome to my resume</h1>
 
       <h2 className="home__subtitle">
-        In this section you will get a guide of this web resume, and what you
-        will get in al of those sections that you can find at the left sidebar.
+        In this section you'll find a guide of this web resume, and what you
+        will get in the sections on the left sidebar.
       </h2>
 
       <section className="home__section">
         <div>
           <h4 className="home__section-title">Home</h4>
+          <p>You're here! The guide of the resume.</p>
+        </div>
+        <div>
+          <h4 className="home__section-title">About</h4>
           <p>
-            In the home section you will get a sneak peek of my professional
-            profile, with all the contact data to get in touch with me!
+            In the About section you will find my personal information to get in
+            touch with me, also my social media and GitHub!
           </p>
         </div>
         <div>

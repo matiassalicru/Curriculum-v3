@@ -1,40 +1,40 @@
 .skills__main {
   width: 90vw;
   margin-left: 350px;
-//   height: 100vh;
-  padding: 5%;
-//   box-sizing: border-box;
+  padding: 0%;
   background: $white;
   display: flex;
-    overflow-x: hidden;
+  overflow-x: hidden;
   flex-direction: column;
   justify-content: space-evenly;
 
   .skills__header {
     .skills__title {
-      font-size: 2.5em;
-      font-weight: 300;
+      @extend .section-title;
+      background-color: $secundary;
     }
 
     .skills__subtitle {
-      font-weight: 300;
+      font-weight: 600;
       font-style: italic;
+      padding: 0% 5%;
     }
   }
 
   .skills__list {
+    padding: 0% 5%;
     list-style: none;
     // width: 50%;
     //   height: 50vh;
     //   display: flex;
     //   flex-direction: column;
     //   flex-wrap: wrap;
-    // display: grid;
-    // grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     // grid-template-rows: repeat(2, 300px);
 
     .skills__list-item {
-      margin: 50px;
+      margin: 20px;
 
       img {
         width: 96px;

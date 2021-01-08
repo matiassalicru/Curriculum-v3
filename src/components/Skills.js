@@ -1,5 +1,6 @@
 import React from "react";
 
+// Images
 import html from "../assets/icons/html5.png";
 import css from "../assets/icons/css.png";
 import js from "../assets/icons/js.png";
@@ -71,7 +72,7 @@ export const Skills = () => {
           <img src={firebase} alt="firebase" />
           <h1>Firebase</h1>
           <p>
-            When you need to stores data, or to make a Login with google, there
+            When you need to store some data, or to make a Login with google, there
             is when firebase comes to action, letting us to implement all these
             important functionalities, and even host our website.
           </p>

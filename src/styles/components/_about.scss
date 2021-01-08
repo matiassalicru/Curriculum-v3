@@ -1,12 +1,26 @@
 .about__main {
-  width: 100vw;
-  height: 100vh;
-  padding: 5%;
+  width: 100%;
+  height: 100%;
+  padding: 0%;
   margin-left: 350px;
   box-sizing: border-box;
   background: $white;
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
+  align-items: center;
+
+  .about__subtitle {
+    @extend .section-title;
+    background-color: $secundary;
+  }
+
+  .about__main-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+  }
 
   .about__profile {
     display: flex;
@@ -40,11 +54,7 @@
   }
 
   .about__container {
-    .about__subtitle {
-      padding: 5px;
-      background-color: $secundary;
-      width: fit-content;
-    }
+    
 
     .about__title {
       font-size: 2em;
